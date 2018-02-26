@@ -2,13 +2,9 @@
 # out the current state.
 board = []
 def display_board(board)
-  puts "   |   |   "
+  puts " #{[0]} | #{[1]} | #{[2]} "
   puts "-----------"
-  puts "   |   |   "
+  puts " #{[3]} | #{[4]} | #{[5]} "
   puts "-----------"
-  puts "   |   |   "
+  puts " #{[6]} | #{[7]} | #{[8]} "
  
-end
-def row
-  puts "#{board[0]} #{board[1]} #{board[2]},#{board[3]} #{board[4]} #{board[5]}, #{board[6]} #{board[7]}#{board[8]}"
-end
